@@ -18,4 +18,6 @@
  Usage: subclass desired UITextView in IB and assign min-height and max-height constraints
  */
 @interface MBAutoGrowingTextView : UITextView
+@property (nonatomic, weak) NSLayoutConstraint *minHeightConstraint;
+@property (nonatomic, weak) NSLayoutConstraint *maxHeightConstraint;
 @end
