@@ -10,8 +10,6 @@
 
 @interface MBAutoGrowingTextView ()
 @property (nonatomic, weak) NSLayoutConstraint *heightConstraint;
-@property (nonatomic, weak) NSLayoutConstraint *minHeightConstraint;
-@property (nonatomic, weak) NSLayoutConstraint *maxHeightConstraint;
 @end
 
 @implementation MBAutoGrowingTextView
